@@ -12,10 +12,22 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Update="businessunits.csv">
+    <None Update="CSVFiles\businessunits.csv">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="states.csv">
+    <None Update="CSVFiles\states.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="CSVFiles\VehicleMake.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="CSVFiles\VehicleMakeToFix.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="CSVFiles\VehicleModel.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="CSVFiles\VehicleModelToFix.csv">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>

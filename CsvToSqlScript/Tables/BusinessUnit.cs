@@ -1,4 +1,4 @@
-﻿namespace CsvToSqlScript
+﻿namespace CsvToSqlScript.Tables
 {
     public class BusinessUnit
     {
